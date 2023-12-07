@@ -333,7 +333,7 @@ window.addEventListener('load', () => {
   }
 
   const getLocation = async () => {
-    const reponse = await fetch('https://ipinfo.io?token=a20414059847cd')
+    const reponse = await fetch('https://ipinfo.io?token=0ea8259ca85768')
     const result = await reponse.json()
     setLocationPeriod(result)
     return result
